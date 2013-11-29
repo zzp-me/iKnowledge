@@ -44,12 +44,15 @@
             - id: SmallC
     - id: 工具技师
       excerpt:
-        特定领域的小工具型项目，通常仅使用一种
-        或少数的编程语言/工具来实现。
+        软件工具的使用
       children:
-        - id: 双向管道
-        - id: 金山词霸生词本转换器
-        - id: 好友买卖外挂
+        - id: 配置管理
+          children:
+            - id: Git
+            - id: ClearCase
+        - id: 数据库
+          children:
+            - id: DB2
     - id: 项目
       excerpt:
         长期维护，通常会用到多种编程语言/工具来实现，
@@ -57,6 +60,9 @@
       children:
         - id: iKnowledge
         - id: 中文计算器
+        - id: 双向管道
+        - id: 金山词霸生词本转换器
+        - id: 好友买卖外挂
 
 - id: 经验
 
