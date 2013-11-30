@@ -18,6 +18,8 @@
               excerpt: 2006年浙江工商大学C语言课程上机实验
         - id: Java
         - id: JavaScript
+          children:
+            - id: E4X
         - id: Python
         - id: Ruby
         - id: Clojure
