@@ -31,7 +31,7 @@
         - id: 解释器
           children:
             - id: BrainFuck
-            - id: Basic
+            - id: BASIC解释器
             - id: SmallC
     - id: 工具技师
       excerpt:
