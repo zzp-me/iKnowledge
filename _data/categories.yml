@@ -19,8 +19,7 @@
             - id: E4X
     - id: 代码分享
       excerpt:
-        综合地运用某一种编程语言的语法特性，
-        实现别人提出的算法。
+        实现别人发明的算法，比如斐波那契数列、Y组合子等
       children:
         - id: 基础算法
         - id: 数据结构
@@ -35,15 +34,11 @@
             - id: SmallC
     - id: 工具技师
       excerpt:
-        软件工具的使用
+        介绍软件工具的使用，不管是别人开发的还是自己实现的。
       children:
-        - id: 配置管理
-          children:
-            - id: Git
-            - id: ClearCase
-        - id: 数据库
-          children:
-            - id: DB2
+        - id: Jekyll
+        - id: ClearCase
+        - id: DB2
     - id: 灵感
     - id: 项目
       excerpt:
