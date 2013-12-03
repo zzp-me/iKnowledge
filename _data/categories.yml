@@ -17,8 +17,7 @@
         - id: JavaScript
           children:
             - id: E4X
-            - id: JS数据库
-              name: 数据库
+            - id: 服务端JS
     - id: 代码分享
       excerpt:
         实现别人发明的算法，比如斐波那契数列、Y组合子等
