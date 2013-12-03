@@ -25,8 +25,9 @@
         - id: 数据结构
         - id: 杭电100题
           excerpt: 头尾的题目都比较水，中间的题目比较有挑战，一般人我不告诉他~
-        - id: 加密解密
         - id: 设计模式
+        - id: 加密解密
+        - id: 图像处理
         - id: 解释器
           children:
             - id: BrainFuck
@@ -40,7 +41,6 @@
         - id: Jekyll
         - id: ClearCase
         - id: DB2
-    - id: 灵感
     - id: 项目
       excerpt:
         这些是我开发并维护的项目，每一个都很有趣！
