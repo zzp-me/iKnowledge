@@ -18,6 +18,9 @@
           children:
             - id: E4X
             - id: 服务端JS
+        - id: Lisp
+          children:
+            - id: Y-combinator
     - id: 代码分享
       excerpt:
         实现别人发明的算法，比如斐波那契数列、Y组合子等
