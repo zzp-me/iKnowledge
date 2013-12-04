@@ -19,8 +19,6 @@
             - id: E4X
             - id: 服务端JS
         - id: Lisp
-          children:
-            - id: Y-combinator
     - id: 代码分享
       excerpt:
         实现别人发明的算法，比如斐波那契数列、Y组合子等
@@ -32,6 +30,7 @@
         - id: 设计模式
         - id: 加密解密
         - id: 图像处理
+        - id: Lambda演算
         - id: 解释器
           children:
             - id: BrainFuck
