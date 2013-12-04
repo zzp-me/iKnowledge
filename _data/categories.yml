@@ -4,52 +4,56 @@
     - id: 我的世界观
       excerpt:
         一个程序员眼中的世界不只有“0”和“1”，编程以外的世界同样精彩。
-    - id: 编程语言生态
-      excerpt:
-        学习一门编程语言不是单纯得学习语法，
-        还要掌握如果管理依赖、调试、测试等。
+
+- id: 编程语言生态
+  excerpt:
+    学习一门编程语言不是单纯得学习语法，
+    还要掌握如果管理依赖、调试、测试等。
+  children:
+    - id: C语言
       children:
-        - id: C语言
-          children:
-            - id: C语言实验报告
-              name: 实验报告
-              excerpt: 2006年浙江工商大学C语言课程上机实验
-        - id: JavaScript
-          children:
-            - id: E4X
-            - id: 服务端JS
-        - id: Lisp
-    - id: 代码分享
-      excerpt:
-        实现别人发明的算法，比如斐波那契数列、Y组合子等
+        - id: C语言实验报告
+          name: 实验报告
+          excerpt: 2006年浙江工商大学C语言课程上机实验
+    - id: JavaScript
       children:
-        - id: 基础算法
-        - id: 数据结构
-        - id: 杭电100题
-          excerpt: 头尾的题目都比较水，中间的题目比较有挑战，一般人我不告诉他~
-        - id: 设计模式
-        - id: 加密解密
-        - id: 图像处理
-        - id: Lambda演算
-        - id: 解释器
-          children:
-            - id: BrainFuck
-            - id: BASIC解释器
-            - id: SmallC
-    - id: 工具技师
-      excerpt:
-        介绍软件工具的使用，不管是别人开发的还是自己实现的。
+        - id: E4X
+        - id: 服务端JS
+    - id: Lisp
+
+- id: 代码分享
+  excerpt:
+    实现别人发明的算法，比如斐波那契数列、Y组合子等
+  children:
+    - id: 基础算法
+    - id: 数据结构
+    - id: 杭电100题
+      excerpt: 头尾的题目都比较水，中间的题目比较有挑战，一般人我不告诉他~
+    - id: 设计模式
+    - id: 加密解密
+    - id: 图像处理
+    - id: Lambda演算
+    - id: 解释器
       children:
-        - id: UNIX超级工具
-        - id: Jekyll
-        - id: ClearCase
-        - id: DB2
-    - id: 项目
-      excerpt:
-        这些是我开发并维护的项目，每一个都很有趣！
-      children:
-        - id: iKnowledge
-        - id: 中文计算器
-        - id: 双向管道
-        - id: 金山词霸生词本转换器
-        - id: 好友买卖外挂
+        - id: BrainFuck
+        - id: BASIC解释器
+        - id: SmallC
+
+- id: 工具技师
+  excerpt:
+    介绍软件工具的使用，不管是别人开发的还是自己实现的。
+  children:
+    - id: 命令行超级工具
+    - id: Jekyll
+    - id: ClearCase
+    - id: DB2
+
+- id: 软件项目
+  excerpt:
+    这些是我开发并维护的项目，每一个都很有趣！
+  children:
+    - id: iKnowledge
+    - id: 中文计算器
+    - id: 双向管道
+    - id: 金山词霸生词本转换器
+    - id: 好友买卖外挂
