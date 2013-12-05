@@ -45,6 +45,7 @@
     介绍软件工具的使用，不管是别人开发的还是自己实现的。
   children:
     - id: 命令行超级工具
+    - id: AutoHotKey
     - id: Jekyll
     - id: ClearCase
     - id: DB2
